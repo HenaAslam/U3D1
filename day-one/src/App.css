@@ -36,46 +36,42 @@
     transform: rotate(360deg);
   }
 }
-
-.my-btn-top{
+.my-btn{
   background-color: white;
   color: black;
   border-radius: 8px;
   padding: 5px 16px;
   font-size: 12px;
-  border: 2px solid #4CAF50;
   transition-duration: 0.4s;
 }
+.my-btn-top{
+  border: 2px solid #7895B2;
+ }
 .my-btn-top:hover{
-  background-color: #4CAF50;
+  background-color: #AEBDCA;
   color: white;
+  font-weight: bold;
 }
 
 .my-btn-bottom{
-  background-color: white;
-  color: black;
-  border-radius: 8px;
-  padding: 5px 16px;
-  font-size: 12px;
-  transition-duration: 0.4s;
-  border: 2px solid #d4101a;
+  border: 2px solid #FF9494;
   margin-top:20px;
 }
 .my-btn-bottom:hover{
-  background-color: #d4101a;
+  background-color: #FFD1D1;
   color: white;
+  font-weight: bold;
+}
+.image{
+  height:120px;
+  width:120px;
+  border-radius: 50%;
 }
 .image-top{
-height:100px;
-width:100px;
-margin-top:20px;
-border-radius: 50%;
-animation: rotation 20s infinite linear;
+  margin-top:20px;
+  animation: rotation 20s infinite linear;
 }
 .image-bottom{
-  height:100px;
-  width:100px;
-  border-radius: 50%;
   animation: rotation-reverse 20s infinite linear;
 }
 @keyframes rotation {
